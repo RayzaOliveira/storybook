@@ -16,6 +16,6 @@ export default create({
   barSelectedColor: "#ffffff",
   barBg: "#1b1a1f",
 
-  brandTitle: "Rayza",
+  brandTitle: "Rayza Storybook 👩‍🚀",
   brandUrl: "https://www.linkedin.com/in/rayza-oliveira-costa-482658129/",
 });
