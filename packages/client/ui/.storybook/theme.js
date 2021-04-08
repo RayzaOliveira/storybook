@@ -17,5 +17,5 @@ export default create({
   barBg: "#1b1a1f",
 
   brandTitle: "Rayza Storybook 👩‍🚀",
-  brandUrl: "https://www.linkedin.com/in/rayza-oliveira-costa-482658129/",
+  brandUrl: "https://linktr.ee/oliveirarayza",
 });
