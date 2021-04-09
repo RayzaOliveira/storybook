@@ -1,4 +1,3 @@
-// eslint-ignore-file
 import React, { forwardRef } from 'react';
 
 import { Label, Radio, Mark } from './styles';
