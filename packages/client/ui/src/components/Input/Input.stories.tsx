@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { storiesOf } from "@storybook/react";
+import React, { useState } from 'react';
+import { storiesOf } from '@storybook/react';
 
-import { MdSearch } from "react-icons/md";
+import { MdSearch } from 'react-icons/md';
 
-import { Input } from "../src";
+import { Input } from '.';
 
-storiesOf("Input", module)
-  .add("Default", () => {
-    const [inputValue, setInputValue] = useState("");
+storiesOf('Input', module)
+  .add('Default', () => {
+    const [inputValue, setInputValue] = useState('');
 
     return (
       <Input
@@ -18,8 +18,8 @@ storiesOf("Input", module)
       />
     );
   })
-  .add("With Icon", () => {
-    const [inputValue, setInputValue] = useState("");
+  .add('With Icon', () => {
+    const [inputValue, setInputValue] = useState('');
 
     return (
       <Input

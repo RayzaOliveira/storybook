@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-import { IFullScreen } from "./index";
+import { IFullScreen } from './ModalTypes';
 
 export const FullScreen = styled.div<IFullScreen>`
   position: fixed;
@@ -9,7 +9,7 @@ export const FullScreen = styled.div<IFullScreen>`
   bottom: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.7);
-  display: ${(props) => (props.open ? "flex" : "none")};
+  display: ${(props) => (props.open ? 'flex' : 'none')};
   justify-content: center;
   align-items: center;
   z-index: 9999;

@@ -1,16 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import { FullScreen, Container, Close } from "./styles";
+import { FullScreen, Container, Close } from './styles';
 
-interface Props {
-  open: boolean;
-  setOpen: (newValue: boolean) => void;
-  title: string;
-}
-
-export interface IFullScreen {
-  open: boolean;
-}
+import { Props } from './ModalTypes';
 
 export const Modal: React.FC<Props> = ({
   open,

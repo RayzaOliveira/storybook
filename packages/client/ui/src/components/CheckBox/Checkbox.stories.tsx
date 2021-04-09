@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { storiesOf } from "@storybook/react";
+import React, { useState } from 'react';
+import { storiesOf } from '@storybook/react';
 
-import { CheckBox } from "../src";
+import { CheckBox } from '.';
 
-storiesOf("CheckBox", module)
-  .add("CheckBox Group", () => {
+storiesOf('CheckBox', module)
+  .add('CheckBox Group', () => {
     const allOptions = [
-      { id: 1, value: "Alpha" },
-      { id: 2, value: "Beta" },
+      { id: 1, value: 'Alpha' },
+      { id: 2, value: 'Beta' },
     ];
 
     const [options, setOptions] = useState([allOptions[1].id]);
@@ -16,7 +16,7 @@ storiesOf("CheckBox", module)
       setOptions(
         options.includes(id)
           ? options.filter((option) => option !== id)
-          : [...options, id]
+          : [...options, id],
       );
     }
 
@@ -35,16 +35,16 @@ storiesOf("CheckBox", module)
       </form>
     );
   })
-  .add("Checked Box", () => (
+  .add('Checked Box', () => (
     <CheckBox
       name="checkbox"
       label="Checked"
       value="Checked"
-      defaultChecked={true}
+      defaultChecked
       readOnly
     />
   ))
-  .add("Unchecked Box", () => (
+  .add('Unchecked Box', () => (
     <CheckBox
       name="checkbox"
       label="Unchecked"

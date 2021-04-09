@@ -1,19 +1,19 @@
-import styled from "styled-components";
-import { lighten, darken, readableColor } from "polished";
+import styled from 'styled-components';
+import { lighten, darken, readableColor } from 'polished';
 
-import { Props } from "./index";
+import { Props } from './ButtonTypes';
 
 export const Container = styled.button<Props>`
   background-color: ${(props) =>
-    props.outlined ? "transparent" : props.backgroundColor};
+    props.outlined ? 'transparent' : props.backgroundColor};
   color: ${({ color }: Props) =>
-    readableColor(color as string, "#fff", "#19181f")};
+    readableColor(color as string, '#fff', '#19181f')};
   padding: 18px 45px;
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 4px;
   border: ${(props) =>
-    props.outlined ? `2px solid ${props.backgroundColor}` : "none"};
+    props.outlined ? `2px solid ${props.backgroundColor}` : 'none'};
   cursor: pointer;
   &:disabled {
     opacity: 0.7;

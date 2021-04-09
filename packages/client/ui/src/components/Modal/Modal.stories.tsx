@@ -1,9 +1,10 @@
-import React, { useState } from "react";
-import { storiesOf } from "@storybook/react";
+import React, { useState } from 'react';
+import { storiesOf } from '@storybook/react';
 
-import { Modal, Button } from "../src";
+import { Modal } from '.';
+import { Button } from '../Button';
 
-storiesOf("Modal", module).add("Test Modal", () => {
+storiesOf('Modal', module).add('Test Modal', () => {
   const [open, setOpen] = useState(false);
 
   return (

@@ -1,8 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-import { ILabel, IBox } from "./index";
-
-export const Label = styled.label<ILabel>`
+export const Label = styled.label`
   display: flex;
   align-items: center;
   position: relative;
@@ -15,13 +13,11 @@ export const Label = styled.label<ILabel>`
   font-size: 16px;
   &:hover span,
   input:checked ~ span {
-    background-color: ${(props) => props.color};
+    background-color: ${(props: { color?: string }) => props.color};
   }
 `;
 
-export const Box = styled.input.attrs({
-  type: "checkbox",
-})<IBox>`
+export const Radio = styled.input`
   cursor: pointer;
   position: absolute;
   opacity: 0;
@@ -40,10 +36,10 @@ export const Mark = styled.span`
   width: 22px;
   background-color: rgba(255, 255, 255, 0.35);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 5px;
+  border-radius: 50%;
   transition: 180ms ease-in-out;
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     display: none;
     left: 6.8px;

@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { storiesOf } from "@storybook/react";
+import React, { useState } from 'react';
+import { storiesOf } from '@storybook/react';
 
-import { Radio } from "../src";
+import { Radio } from '.';
 
-storiesOf("Radio", module)
-  .add("Radio Group", () => {
+storiesOf('Radio', module)
+  .add('Radio Group', () => {
     const options = [
-      { id: 1, value: "Alpha" },
-      { id: 2, value: "Beta" },
+      { id: 1, value: 'Alpha' },
+      { id: 2, value: 'Beta' },
     ];
 
     const [option, setOption] = useState(options[1].id);
@@ -27,16 +27,16 @@ storiesOf("Radio", module)
       </form>
     );
   })
-  .add("Checked Radio", () => (
+  .add('Checked Radio', () => (
     <Radio
       label="Checked"
       value="Checked"
       name="radio"
-      defaultChecked={true}
+      defaultChecked
       readOnly
     />
   ))
-  .add("Unchecked Radio", () => (
+  .add('Unchecked Radio', () => (
     <Radio
       label="Unchecked"
       value="Unchecked"

@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-import { ILabel } from "./index";
+import { ILabel } from './InputTypes';
 
 export const Label = styled.label<ILabel>`
   display: flex;
@@ -11,7 +11,7 @@ export const Label = styled.label<ILabel>`
     border: 2px solid #25242c;
     border-radius: 4px;
     padding: 16px;
-    padding-left: ${(props) => (props.icon ? "40px" : "16px")};
+    padding-left: ${(props) => (props.icon ? '40px' : '16px')};
     color: #fff;
     font-size: 16px;
     transition: 180ms ease-in-out;
