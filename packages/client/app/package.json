@@ -1,0 +1,19 @@
+{
+  "name": "@monorepo-rayza/app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "test": "jest",
+    "lint": "eslint --fix"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-plugin-macros": "^3.0.1",
+    "next": "10.2.0",
+    "react-query": "^3.13.12"
+  }
+}
