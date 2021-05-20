@@ -12,7 +12,8 @@
   "scripts": {
     "storybook": "start-storybook -p 8080",
     "build": "tsc -p .",
-    "storybook:build": "yarn workspace @monorepo-rayza/ui run build-storybook"
+    "storybook:build": "yarn workspace @monorepo-rayza/ui run build-storybook",
+    "app:build": "yarn workspace @monorepo-rayza/app run build"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
