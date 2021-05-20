@@ -54,6 +54,7 @@
     "react": "^17.0.2",
     "react-countdown": "^2.3.1",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.6.3",
     "styled-components": "^5.2.1",
     "theme-ui": "^0.6.2"
   },
