@@ -4,3 +4,5 @@ yarn-error.log
 yarn.lock
 coverage
 .next
+storybook-static
+out
