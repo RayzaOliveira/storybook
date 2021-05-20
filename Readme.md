@@ -17,12 +17,21 @@
     <img alt="Made by Rayza" src="https://img.shields.io/badge/made%20by-Rayza%20Oliveira-pink">
   </a>
   <img alt="License" src="https://img.shields.io/badge/licence-MIT-pink">
+  <a href="https://github.com/RayzaOliveira/storybook/blob/main/Readme-Portugues.md">
+    <img alt="Readme em Português" src="https://img.shields.io/badge/Readme-Português-brigthgreen">
+  </a>
 </p>
 <a id="About"></a>
 
 ## :bookmark: About
 
 Studies of libs and project structures that I'm working in the internship.
+
+## 🚀 Projects deployed
+
+- **[App](https://rayza-app.netlify.app/)**
+
+- **[Ui](https://rayza-storybook.netlify.app/)**
 
 ## 📌 Topics being studied
 

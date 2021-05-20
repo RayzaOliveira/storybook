@@ -17,7 +17,7 @@
     <img alt="Made by Rayza" src="https://img.shields.io/badge/made%20by-Rayza%20Oliveira-pink">
   </a>
   <img alt="License" src="https://img.shields.io/badge/licence-MIT-pink">
-  <a href="https://www.linkedin.com/in/rayza-oliveira-costa-482658129/">
+  <a href="https://github.com/RayzaOliveira/storybook">
     <img alt="Readme em Português" src="https://img.shields.io/badge/Readme-English-blue">
   </a>
 </p>
