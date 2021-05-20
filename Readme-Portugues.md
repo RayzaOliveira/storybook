@@ -1,6 +1,6 @@
 <h1 align="center">
 
-`In progress 🏃‍♀️`
+`Em andamento 🏃‍♀️`
 
 </h1>
 
@@ -14,26 +14,26 @@
 </h3>
 <p align="center">
   <a href="https://www.linkedin.com/in/rayza-oliveira-costa-482658129/">
-    <img alt="Made by Rayza" src="https://img.shields.io/badge/made%20by-Rayza%20Oliveira-pink">
+    <img alt="Made by Rayza" src="https://img.shields.io/badge/Feito%20por-Rayza%20Oliveira-pink">
   </a>
-  <img alt="License" src="https://img.shields.io/badge/licence-MIT-pink">
+  <img alt="License" src="https://img.shields.io/badge/licença-MIT-pink">
   <a href="https://github.com/RayzaOliveira/storybook">
     <img alt="Readme em Português" src="https://img.shields.io/badge/Readme-English-blue">
   </a>
 </p>
 <a id="About"></a>
 
-## :bookmark: About
+## :bookmark: Sobre
 
-Studies of libs and project structures that I'm working in the internship.
+Estudos de bibliotecas e estruturas de projetos que estou trabalhando na <a href="https://www.triangulostecnologia.com/"> <strong>Triângulos Tecnologia</strong></a>.
 
-## 🚀 Projects deployed
+## 🚀 Projetos implantados
 
-- **[App](https://rayza-app.netlify.app/)**
+- App - **[Rayza fox page](https://rayza-app.netlify.app/)**
 
-- **[Ui](https://rayza-storybook.netlify.app/)**
+- Ui - **[Storybook](https://rayza-storybook.netlify.app/)**
 
-## 📌 Topics being studied
+## 📌 Tópicos de estudo
 
 - Storybook
 - Monorepo
@@ -46,7 +46,7 @@ Studies of libs and project structures that I'm working in the internship.
 - QraphQL
 - Relay
 
-## :rocket: Source of studies
+## :rocket: Fontes de pesquisa
 
 <!-- - **[GraphQL](https://graphql.org/)** -->
 
@@ -55,5 +55,5 @@ Studies of libs and project structures that I'm working in the internship.
 ---
 
 <h4 align="center">
-    Done with 💗 by <a href="https://linktr.ee/oliveirarayza" target="_blank">Rayza Oliveira</a>
+    Feito com 💗 por <a href="https://linktr.ee/oliveirarayza" target="_blank">Rayza Oliveira</a>
 </h4>

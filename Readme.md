@@ -25,13 +25,13 @@
 
 ## :bookmark: About
 
-Studies of libs and project structures that I'm working in the internship.
+Studies of libraries and project structures that I am working on for my job at <a href="https://www.triangulostecnologia.com/"> <strong> Triângulo Tecnologia </strong> </a>.
 
 ## 🚀 Projects deployed
 
-- **[App](https://rayza-app.netlify.app/)**
+- App - **[Rayza fox page](https://rayza-app.netlify.app/)**
 
-- **[Ui](https://rayza-storybook.netlify.app/)**
+- Ui - **[Storybook](https://rayza-storybook.netlify.app/)**
 
 ## 📌 Topics being studied
 
@@ -46,7 +46,7 @@ Studies of libs and project structures that I'm working in the internship.
 - QraphQL
 - Relay
 
-## :rocket: Source of studies
+## :rocket: Search sources
 
 <!-- - **[GraphQL](https://graphql.org/)** -->
 
