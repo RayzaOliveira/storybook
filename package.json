@@ -11,7 +11,8 @@
   "license": "MIT",
   "scripts": {
     "storybook": "start-storybook -p 8080",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "storybook:build": "yarn workspace @monorepo-rayza/ui run build-storybook"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
