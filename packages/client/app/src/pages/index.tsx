@@ -8,7 +8,6 @@ import { toast } from 'react-toastify';
 
 import { Image, Button, Flex, Spinner } from '@theme-ui/components';
 
-import {} from '@monorepo-rayza/ui';
 import useSearch from 'src/hooks/useSearch';
 import { Box } from '@theme-ui/components';
 
