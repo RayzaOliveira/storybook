@@ -10,15 +10,16 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "storybook": "start-storybook -p 8080",
-    "build": "tsc -p .",
-    "storybook:build": "yarn workspace @monorepo-rayza/ui run build-storybook",
+    "storybook": "yarn workspace monorepo-rayza-ui run start-storybook -p 8080",
+    "build": "lerna run build",
+    "storybook:build": "yarn workspace monorepo-rayza-ui run build-storybook",
     "app:build": "yarn workspace @monorepo-rayza/app run build"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
     "@emotion/jest": "^11.3.0",
+    "@formatjs/cli": "^4.2.21",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^13.1.9",
@@ -51,13 +52,14 @@
     "react-icons": "^3.9.0",
     "ts-jest": "^26.5.4",
     "ts-loader": "^6.2.2",
+    "tsdx": "^0.14.1",
     "typescript": "^3.8.3"
   },
   "dependencies": {
     "react": "^17.0.2",
     "react-countdown": "^2.3.1",
     "react-dom": "^17.0.2",
-    "react-hook-form": "^7.6.3",
+    "react-hook-form": "^7.9.0",
     "react-toastify": "^7.0.4",
     "reapop": "^4.0.0",
     "styled-components": "^5.2.1",

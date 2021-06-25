@@ -1,9 +1,9 @@
 {
   "extends": "../../../config/tsconfig.react.json",
   "compilerOptions": {
-    "types": ["google.maps"],
     "outDir": "dist",
     "jsx": "preserve",
+    "skipLibCheck": true,
     "noEmit": false
   },
   "include": ["src", "index.d.ts"],

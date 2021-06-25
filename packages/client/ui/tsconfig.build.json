@@ -1,0 +1,16 @@
+{
+  "extends": "../../../config/tsconfig.react.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "noEmit": false
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "**/*.stories.tsx",
+    "**/*.spec.tsx",
+    "src/Providers.tsx",
+    "src/testUtils.ts"
+  ]
+}

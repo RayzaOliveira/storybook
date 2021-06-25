@@ -1,0 +1,8 @@
+coverage
+node_modules
+src
+jest.config.jest
+tsconfig.json
+.eslintrc.js
+storybook-static
+.storybook
