@@ -50,7 +50,10 @@ Studies of libraries and project structures that I am working on for my job at <
 
 <!-- - **[GraphQL](https://graphql.org/)** -->
 
-- **[YouTube](https://www.youtube.com/watch?v=j0MCdrqN8nU&t=934s)**
+- **[Storybook Tutorial](https://www.youtube.com/watch?v=j0MCdrqN8nU&t=934s)**
+- **[Random fox API](https://randomfox.ca/)**
+- **[Reapop Notification](https://github.com/LouisBarranqueiro/reapop#compatibility)**
+- **[React-Toastify Notification](https://fkhadra.github.io/react-toastify/introduction)**
 
 ---
 
