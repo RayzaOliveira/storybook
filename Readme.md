@@ -17,12 +17,21 @@
     <img alt="Made by Rayza" src="https://img.shields.io/badge/made%20by-Rayza%20Oliveira-pink">
   </a>
   <img alt="License" src="https://img.shields.io/badge/licence-MIT-pink">
+  <a href="https://github.com/RayzaOliveira/storybook/blob/main/Readme-Portugues.md">
+    <img alt="Readme em Português" src="https://img.shields.io/badge/Readme-Português-brigthgreen">
+  </a>
 </p>
 <a id="About"></a>
 
 ## :bookmark: About
 
-Studies of libs and project structures that I'm working in the internship.
+Studies of libraries and project structures that I am working on for my job at <a href="https://www.triangulostecnologia.com/"> <strong> Triângulo Tecnologia </strong> </a>.
+
+## 🚀 Projects deployed
+
+- App - **[Rayza fox page](https://rayza-app.netlify.app/)**
+
+- Ui - **[Storybook](https://rayza-storybook.netlify.app/)**
 
 ## 📌 Topics being studied
 
@@ -37,11 +46,14 @@ Studies of libs and project structures that I'm working in the internship.
 - QraphQL
 - Relay
 
-## :rocket: Source of studies
+## :rocket: Search sources
 
 <!-- - **[GraphQL](https://graphql.org/)** -->
 
-- **[YouTube](https://www.youtube.com/watch?v=j0MCdrqN8nU&t=934s)**
+- **[Storybook Tutorial](https://www.youtube.com/watch?v=j0MCdrqN8nU&t=934s)**
+- **[Random fox API](https://randomfox.ca/)**
+- **[Reapop Notification](https://github.com/LouisBarranqueiro/reapop#compatibility)**
+- **[React-Toastify Notification](https://fkhadra.github.io/react-toastify/introduction)**
 
 ---
 
