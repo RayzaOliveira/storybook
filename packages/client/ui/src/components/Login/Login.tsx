@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { Flex, Label, Button, Input, Box, Image, Text } from 'theme-ui';
+import { Flex, Label, Button, Input, Box, Text } from 'theme-ui';
 import { useForm } from 'react-hook-form';
 
-import logo from '../../assets/login.png';
+// import logo from '../../assets/login.png';
 
 type Fields = {
   email: string;
@@ -36,7 +36,7 @@ const Login = ({ onSubmit }: LoginProps) => {
           fontFamily: 'Arial',
         }}
       >
-        <Image sx={{ width: '160px', marginBottom: '32px' }} src={logo} />
+        {/* <Image sx={{ width: '160px', marginBottom: '32px' }} src={logo} /> */}
 
         <Box sx={{ width: '100%', marginBottom: '24px' }}>
           <Label htmlFor="e-mail">E-mail</Label>

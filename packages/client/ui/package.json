@@ -11,6 +11,7 @@
     "@storybook/addons": "^6.2.5",
     "@storybook/react": "^6.1.21",
     "@storybook/theming": "^6.2.5",
+    "@types/google.maps": "^3.45.3",
     "babel-loader": "^8.1.0",
     "react-is": "^16.13.1",
     "storybook-addon-designs": "^5.4.5"
